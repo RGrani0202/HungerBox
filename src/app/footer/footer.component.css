@@ -1,0 +1,51 @@
+/* footer.component.css */
+
+/* Set background color and padding for the footer */
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+
+  }
+  
+  /* Style the copyright text */
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    
+  }
+  
+  /* Style the footer navigation links */
+  .footer-nav li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 10px;
+
+  }
+
+  .footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  
+  .footer-nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  /* Apply hover effect to footer navigation links */
+  .footer-nav a:hover {
+    color: #dc3545;
+  }
