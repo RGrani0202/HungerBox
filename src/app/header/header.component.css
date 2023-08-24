@@ -11,6 +11,10 @@ header {
   font-weight: bold;
   color: #dc3545;
   margin-left: 15px;
+  font-family:sans-serif;
+  
+  
+
 }
 
 /* Style the navigation links */
@@ -39,4 +43,27 @@ header {
 /* Adjust the spacing between the navbar toggler button and the navigation links */
 .navbar-collapse {
   margin-left: 10px;
+}
+.img{
+  width: 40px;
+  height:40px;
+}
+.btn{
+  border-radius: 100px;
+  padding: 0%;
+  margin: 0%;
+  
+}
+button:focus {
+  border: none;
+  outline: none;
+}
+h6{
+  color: rgb(148, 42, 42);
+  font-size: 0.7rem;
+  line-height: 1;
+  font-weight: 500;
+  padding-bottom: 0%;
+  margin-bottom: 0px;
+  /* margin: 3rem 0px 3.2rem; */
 }

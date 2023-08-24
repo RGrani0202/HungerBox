@@ -1,0 +1,265 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  
+  }
+  .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  .image {
+
+    width: 39px;
+    height:39px;
+    margin-right: 1%;
+    margin-left: 40px;
+    /* margin-top: 0%; */
+  
+  }
+  .items li img{
+    height: 15rem;
+    width: 20rem;
+    border: 2px solid whitesmoke;
+    border-radius: 2.5rem;
+    margin: 1rem;
+    margin-bottom: -5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+    
+ 
+  }
+
+  
+  ul li img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid whitesmoke;
+    border-radius: 100rem;
+    margin: 1rem;
+    margin-bottom: -5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+    
+ 
+  }
+
+  .shops{
+    height: 20rem;
+  
+    width: 25rem;
+    
+    border: 2px solid whitesmoke;
+    
+    border-radius: 100rem;
+    
+    margin: 1rem;
+    
+    margin-bottom: -5rem;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    overflow: hidden;
+    
+    color: #e72929;
+  }
+  
+  li img:hover{
+  
+    opacity:0.8;
+  
+    cursor:pointer
+  
+  }
+  .content{
+    height: 12rem;
+    width: 12rem;
+  }
+  
+  .menu{
+  
+    /* background-color:#42b962; */
+  
+    background: linear-gradient(to bottom, #63b479 0, #e0ffff 200%);
+  
+    /* width: 150px;
+  
+    align-self: center; */
+  
+    font-size: 20pt;
+  
+   
+  
+  }
+  
+  .name{
+    font-family:sans-serif;
+    font-size: 1rem;
+  
+    font-weight: bold;
+  
+    font-size:1rem;
+  
+    color:black;
+ 
+  
+  }
+  .name1{
+    font-family:sans-serif;
+    font-size: 0.7rem;
+  
+    font-weight: bold;
+  
+    font-size:1rem;
+  
+    color:black;
+    margin:10px;
+    padding: 20px;
+    margin-top: 50px;
+  
+  }
+  
+  .stars{
+  
+    margin-bottom: 0.2rem;
+  
+    display: inline-block;
+  
+    text-align: right;
+    margin-left: 20px;
+   
+  
+   
+  
+  }
+  
+  .content{
+  
+      display: flex;
+  
+      justify-content: space-between;
+      height: 80px;
+      width: 280px;
+      margin-left: 20px;
+      margin-right: 0px;
+  
+      
+  }
+  
+  .checked {
+  
+    color: orange;
+  
+  }
+  
+  h1{
+  
+      font-size: 32px;
+  
+      font-weight: bold;
+  
+      color: #333;
+  
+      text-align: center;
+  
+      margin-top: 20px;
+  
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+      /* background-color:azure; */
+  
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  
+      font-size: 30pt;
+  
+      /* background-color: #e72929; */
+  
+     
+  
+    }
+  
+    h3{
+      display: flex;
+      justify-content: flex-start;
+      /* padding-left: 50px ; */
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      /* margin: 10px; */
+
+    }
+
+     .scroll-icon {
+    position: relative;
+    display: flex;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    height: 240px;
+  }
+
+  .scroll-content {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent content from wrapping */
+  }
+
+  .scroll-icon::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+  }
+  .brand{
+    display:flex;
+    justify-content:flex-start;
+    padding: 10px;
+    
+    margin-bottom: 30px;
+
+    
+  }
+  
+
+  .brand-content{
+    display: flex;
+  
+    justify-content: space-evenly;
+    margin-top:10px;
+  }
+
+  .product-item img{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 2rem;
+   
+  }
+  .product-item{
+    height: 18rem;
+    width: 20rem;
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 2rem;
+
+  }
+  a{
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,195 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+
+<!-- Top Brands -->
+<div class="brand">
+  <img class="image" src="assets/brand.png" alt="brand" />
+  <h3>Top Brands for you</h3>
+</div>
+<div
+  ngbScrollSpy
+  #spy="ngbScrollSpy"
+  class="bg-light p-3 rounded-2 mb-3 scroll-icon topbrand"
+>
+  <ng-container >
+    <div class="scroll-content">
+      <ul
+        ngbScrollSpyFragment="one"
+        style="
+          display: grid;
+          grid-auto-flow: column;
+          gap: 20px;
+          padding: 0;
+          list-style: none;
+        "
+      >
+        <li
+          *ngFor="let brand of topBrand"
+          style="display: flex; flex-direction: column"
+        >
+          <div style="flex: 1">
+            <img src="{{ brand.image }}" alt="food images" />
+          </div>
+          <div class="brand-content" style="margin-top: 10px">
+            <div class="name1">
+              {{ brand.name }}
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </ng-container>
+</div>
+
+<div class="brand">
+  <img class="image" src="assets/restaurant.png" alt="brand" />
+  <h3>Explore your favourite food!</h3>
+</div>
+<!-- cafe-1  -->
+<!-- <div class ="row">
+<div class = "col-sm-3">
+    <ng-container *ngIf="cafeName === 'Cafe-1'">
+    <div class="product-item" *ngFor="let item of foodItems">
+      <ng-container *ngIf="item.cafe === 'cafe-1'">
+      <a routerLink="/details/{{item.id}}">
+        <img src="{{ item.image }}" alt="food images" />
+      
+      </a>
+      <div class = " product-details">
+        <h6 class = "name">  {{ item.name }}</h6>
+        <div class =" stars">
+          <h6>  rating:  {{ item.stars }}
+
+           </h6>
+           <span class="fa fa-star checked"></span>
+        
+        </div>
+        <div class = "product-footer">
+          <a href="">View Details</a>
+          <a href="">Add to Cart</a>
+
+        </div>
+
+      </div>
+    </ng-container>
+    </div>
+  </ng-container>
+  </div>
+</div> -->
+<div class=" Shops">
+  <ul>
+    <!-- Display items based on the cafeName -->
+    <ng-container *ngIf="cafeName === 'Cafe-1'">
+      <ul class="items">
+        <li *ngFor="let item of foodItems">
+<a routerLink="/details/{{item.id}}">
+
+          <ng-container *ngIf="item.cafe === 'cafe-1'">
+
+  <img src="{{ item.image }}" alt="food images" />
+
+
+            <br /><br /><br /><br /><br />
+
+            <div class="content">
+              <div class="name">
+                {{ item.name }}
+              </div>
+
+              <div class="stars">
+                        {{ item.stars }}
+
+                <span class="fa fa-star checked"></span>
+
+                <br /><br /><br /><br />
+              </div>
+            </div>
+          </ng-container>
+        </a>
+
+        </li>
+      </ul>
+    </ng-container>
+  </ul>
+</div>
+
+<!-- Cafe -2  -->
+<div class=" Shops">
+  <ul>
+    <!-- Display items based on the cafeName -->
+    <ng-container *ngIf="cafeName === 'Cafe-2'">
+      <ul class="items">
+        <li *ngFor="let item of foodItems">
+<a routerLink="/details/{{item.id}}">
+
+          <ng-container *ngIf="item.cafe === 'cafe-2'">
+
+  <img src="{{ item.image }}" alt="food images" />
+
+
+            <br /><br /><br /><br /><br />
+
+            <div class="content">
+              <div class="name">
+                {{ item.name }}
+              </div>
+
+              <div class="stars">
+                        {{ item.stars }}
+
+                <span class="fa fa-star checked"></span>
+
+                <br /><br /><br /><br />
+              </div>
+            </div>
+          </ng-container>
+        </a>
+
+        </li>
+      </ul>
+    </ng-container>
+  </ul>
+</div>
+
+<!-- cafe-3 -->
+<div class=" Shops">
+  <ul>
+    <!-- Display items based on the cafeName -->
+    <ng-container *ngIf="cafeName === 'Cafe-3'">
+      <ul class="items">
+        <li *ngFor="let item of foodItems">
+<a routerLink="/details/{{item.id}}">
+
+          <ng-container *ngIf="item.cafe === 'cafe-3'">
+
+  <img src="{{ item.image }}" alt="food images" />
+
+
+            <br /><br /><br /><br /><br />
+
+            <div class="content">
+              <div class="name">
+                {{ item.name }}
+              </div>
+
+              <div class="stars">
+                        {{ item.stars }}
+                        <div class="fa fa-star checked"></div>
+              </div>
+
+                     
+
+               
+
+            
+            </div>
+          </ng-container>
+        </a>
+
+        </li>
+      </ul>
+    </ng-container>
+  </ul>
+</div>
